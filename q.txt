@@ -1,0 +1,34 @@
+a. mysql -u root
+
+b. mysql -u footstats_user -p footstats < user_setting.sql
+
+
+
+
+
+sudo apt-get clean
+
+c. go into footstats-django
+	git pull origin master
+	email: marthaslee52457@gmail.com
+	name: alexkim900628
+	git token: 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	
+	
+	- kill process and run again follow the commands;
+
+		- run backend with uwsgi
+			uwsgi --http :5000 --module footstats.wsgi &
+
+		- nginx 
+			service nginx restart
+
+d. go into footstats-vue
+	git pull origin master
+	it's same credentials
+
+	npm install
+
+!!!!
+e. close putty via exit command, not with mouse.
+
+is it possible? How can I help my bro?
